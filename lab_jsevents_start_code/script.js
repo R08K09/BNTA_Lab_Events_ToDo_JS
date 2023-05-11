@@ -48,6 +48,6 @@ const itemIsCompleted = (newListItem) => {
     newListItem.removeChild(newListItem.lastChild);
     completedItem.innerText = newListItem.innerText;
     completedList.appendChild(completedItem);
-    completedItem.setAttribute("style", "color: grey");
+    completedItem.setAttribute("style", "color: white");
     list.removeChild(newListItem);
 }
