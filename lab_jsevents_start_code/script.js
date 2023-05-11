@@ -20,3 +20,15 @@ const createDeleteButton = (newListItem) => {
     });
     return deleteButton;
 }
+
+
+// create button for today's date
+
+const dateButton = document.getElementById("date-today");
+
+dateButton.addEventListener("click", () =>{
+    const currentDate = new Date();
+    const dateString = currentDate.toString();
+    alert(dateString);
+
+})
